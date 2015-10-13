@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B146E34D1BCD5569004290A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B146E34C1BCD5569004290A9 /* AppDelegate.m */; };
+		B146E34F1BCD5569004290A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B146E34E1BCD5569004290A9 /* main.m */; };
+		B146E3511BCD5569004290A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B146E3501BCD5569004290A9 /* Images.xcassets */; };
+		B146E3541BCD5569004290A9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B146E3521BCD5569004290A9 /* MainMenu.xib */; };
+		B146E3601BCD5569004290A9 /* AWSyncOSxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B146E35F1BCD5569004290A9 /* AWSyncOSxTests.m */; };
+		B1DA8C161BCD72A400B2AEA6 /* AirWatchSclSync.png in Resources */ = {isa = PBXBuildFile; fileRef = B1DA8C151BCD72A400B2AEA6 /* AirWatchSclSync.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B146E35A1BCD5569004290A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B146E33E1BCD5569004290A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B146E3451BCD5569004290A9;
+			remoteInfo = AWSyncOSx;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B146E3461BCD5569004290A9 /* AWSyncOSx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AWSyncOSx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B146E34A1BCD5569004290A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B146E34B1BCD5569004290A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B146E34C1BCD5569004290A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B146E34E1BCD5569004290A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B146E3501BCD5569004290A9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B146E3531BCD5569004290A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B146E3591BCD5569004290A9 /* AWSyncOSxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AWSyncOSxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B146E35E1BCD5569004290A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B146E35F1BCD5569004290A9 /* AWSyncOSxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWSyncOSxTests.m; sourceTree = "<group>"; };
+		B1DA8C151BCD72A400B2AEA6 /* AirWatchSclSync.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AirWatchSclSync.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B146E3431BCD5569004290A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B146E3561BCD5569004290A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B146E33D1BCD5569004290A9 = {
+			isa = PBXGroup;
+			children = (
+				B1DA8C171BCD72AC00B2AEA6 /* Resources */,
+				B146E3481BCD5569004290A9 /* AWSyncOSx */,
+				B146E35C1BCD5569004290A9 /* AWSyncOSxTests */,
+				B146E3471BCD5569004290A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B146E3471BCD5569004290A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B146E3461BCD5569004290A9 /* AWSyncOSx.app */,
+				B146E3591BCD5569004290A9 /* AWSyncOSxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B146E3481BCD5569004290A9 /* AWSyncOSx */ = {
+			isa = PBXGroup;
+			children = (
+				B146E34B1BCD5569004290A9 /* AppDelegate.h */,
+				B146E34C1BCD5569004290A9 /* AppDelegate.m */,
+				B146E3501BCD5569004290A9 /* Images.xcassets */,
+				B146E3521BCD5569004290A9 /* MainMenu.xib */,
+				B146E3491BCD5569004290A9 /* Supporting Files */,
+			);
+			path = AWSyncOSx;
+			sourceTree = "<group>";
+		};
+		B146E3491BCD5569004290A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B146E34A1BCD5569004290A9 /* Info.plist */,
+				B146E34E1BCD5569004290A9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B146E35C1BCD5569004290A9 /* AWSyncOSxTests */ = {
+			isa = PBXGroup;
+			children = (
+				B146E35F1BCD5569004290A9 /* AWSyncOSxTests.m */,
+				B146E35D1BCD5569004290A9 /* Supporting Files */,
+			);
+			path = AWSyncOSxTests;
+			sourceTree = "<group>";
+		};
+		B146E35D1BCD5569004290A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B146E35E1BCD5569004290A9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1DA8C171BCD72AC00B2AEA6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B1DA8C151BCD72A400B2AEA6 /* AirWatchSclSync.png */,
+			);
+			name = Resources;
+			path = AWSyncOSx;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B146E3451BCD5569004290A9 /* AWSyncOSx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B146E3631BCD5569004290A9 /* Build configuration list for PBXNativeTarget "AWSyncOSx" */;
+			buildPhases = (
+				B146E3421BCD5569004290A9 /* Sources */,
+				B146E3431BCD5569004290A9 /* Frameworks */,
+				B146E3441BCD5569004290A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AWSyncOSx;
+			productName = AWSyncOSx;
+			productReference = B146E3461BCD5569004290A9 /* AWSyncOSx.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B146E3581BCD5569004290A9 /* AWSyncOSxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B146E3661BCD5569004290A9 /* Build configuration list for PBXNativeTarget "AWSyncOSxTests" */;
+			buildPhases = (
+				B146E3551BCD5569004290A9 /* Sources */,
+				B146E3561BCD5569004290A9 /* Frameworks */,
+				B146E3571BCD5569004290A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B146E35B1BCD5569004290A9 /* PBXTargetDependency */,
+			);
+			name = AWSyncOSxTests;
+			productName = AWSyncOSxTests;
+			productReference = B146E3591BCD5569004290A9 /* AWSyncOSxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B146E33E1BCD5569004290A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = AirWatch;
+				TargetAttributes = {
+					B146E3451BCD5569004290A9 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					B146E3581BCD5569004290A9 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = B146E3451BCD5569004290A9;
+					};
+				};
+			};
+			buildConfigurationList = B146E3411BCD5569004290A9 /* Build configuration list for PBXProject "AWSyncOSx" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B146E33D1BCD5569004290A9;
+			productRefGroup = B146E3471BCD5569004290A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B146E3451BCD5569004290A9 /* AWSyncOSx */,
+				B146E3581BCD5569004290A9 /* AWSyncOSxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B146E3441BCD5569004290A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B146E3511BCD5569004290A9 /* Images.xcassets in Resources */,
+				B1DA8C161BCD72A400B2AEA6 /* AirWatchSclSync.png in Resources */,
+				B146E3541BCD5569004290A9 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B146E3571BCD5569004290A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B146E3421BCD5569004290A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B146E34F1BCD5569004290A9 /* main.m in Sources */,
+				B146E34D1BCD5569004290A9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B146E3551BCD5569004290A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B146E3601BCD5569004290A9 /* AWSyncOSxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B146E35B1BCD5569004290A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B146E3451BCD5569004290A9 /* AWSyncOSx */;
+			targetProxy = B146E35A1BCD5569004290A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B146E3521BCD5569004290A9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B146E3531BCD5569004290A9 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B146E3611BCD5569004290A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B146E3621BCD5569004290A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B146E3641BCD5569004290A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AWSyncOSx/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B146E3651BCD5569004290A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AWSyncOSx/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B146E3671BCD5569004290A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AWSyncOSxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AWSyncOSx.app/Contents/MacOS/AWSyncOSx";
+			};
+			name = Debug;
+		};
+		B146E3681BCD5569004290A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AWSyncOSxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AWSyncOSx.app/Contents/MacOS/AWSyncOSx";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B146E3411BCD5569004290A9 /* Build configuration list for PBXProject "AWSyncOSx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B146E3611BCD5569004290A9 /* Debug */,
+				B146E3621BCD5569004290A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B146E3631BCD5569004290A9 /* Build configuration list for PBXNativeTarget "AWSyncOSx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B146E3641BCD5569004290A9 /* Debug */,
+				B146E3651BCD5569004290A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B146E3661BCD5569004290A9 /* Build configuration list for PBXNativeTarget "AWSyncOSxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B146E3671BCD5569004290A9 /* Debug */,
+				B146E3681BCD5569004290A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B146E33E1BCD5569004290A9 /* Project object */;
+}
