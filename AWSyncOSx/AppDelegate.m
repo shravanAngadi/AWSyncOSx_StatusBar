@@ -7,10 +7,12 @@
 //
 
 #import "AppDelegate.h"
+#import "SocketController.h"
 
 @interface AppDelegate (){
     
     AWContactSupportViewController *supportController;
+    SocketController *socketController;
 }
 
 //@property (weak) IBOutlet NSWindow *mainWindow;
@@ -67,7 +69,9 @@
     
     //call the AWSocket API here to create a socket client. Connet to the CS socket server, and pass on a message to CS to start sync!
     
+    socketController = [SocketController alloc];
     
+    [socketController connectAndSendMessageToCS:@"SYN"];
     
 }
 
