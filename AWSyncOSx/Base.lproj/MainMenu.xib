@@ -692,6 +692,12 @@
                 <menuItem title="About us" id="Ydf-Vo-0UE">
                     <modifierMask key="keyEquivalentModifierMask"/>
                 </menuItem>
+                <menuItem title="Quit" id="n2N-tO-Llo">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="terminate:" target="-1" id="ejj-LC-d8y"/>
+                    </connections>
+                </menuItem>
             </items>
         </menu>
     </objects>

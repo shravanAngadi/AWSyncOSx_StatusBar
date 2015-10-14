@@ -10,7 +10,7 @@
 
 @interface AppDelegate ()
 
-//@property (weak) IBOutlet NSWindow *window;
+@property (weak) IBOutlet NSWindow *mainWindow;
 
 
 @end
@@ -35,17 +35,19 @@
     
     NSBundle *bundle = [NSBundle mainBundle];
     
-    statusImage = [[NSImage alloc] initWithContentsOfFile:[bundle pathForResource:@"AirWatchSclSync" ofType:@"png"]];
+    statusImage = [[NSImage alloc] initWithContentsOfFile:[bundle pathForResource:@"AWLocker-Sync-1" ofType:@"png"]];
+    
+    [statusImage setTemplate:YES];
     
     [statusItem setImage:statusImage];
     
-    
+    [statusItem setToolTip:NSLocalizedString(@"Airwatch",nil)];
     
     [statusItem setMenu:statusMenu];
     
     [statusItem setHighlightMode:YES];
     
-    
+    [statusItem setTarget:self];
     
 }
 
