@@ -8,9 +8,12 @@
 
 #import "AppDelegate.h"
 
-@interface AppDelegate ()
+@interface AppDelegate (){
+    
+    AWContactSupportViewController *supportController;
+}
 
-@property (weak) IBOutlet NSWindow *mainWindow;
+//@property (weak) IBOutlet NSWindow *mainWindow;
 
 
 @end
@@ -60,12 +63,27 @@
     NSLog(@"Sync in progress.. \n");
     
     
+    //Scan the AW-Sinc folder and notify changes.
+    
     //call the AWSocket API here to create a socket client. Connet to the CS socket server, and pass on a message to CS to start sync!
     
     
     
 }
 
+
+-(IBAction) displayContactSupport:(id)sender{
+    
+    NSLog(@"Displaying info about AirWatch.. \n");
+
+    if (!supportController) {
+        supportController = [[AWContactSupportViewController alloc] initWithWindowNibName:@"AWContactSupportViewController"];
+    }
+ 
+    [supportController displayWindow];
+    
+//    [supportController showWindow:self];
+}
 
 
 

@@ -7,6 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "AWContactSupportViewController.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>{
 
@@ -19,10 +20,9 @@
 }
 
 
-
 -(IBAction) sync:(id)sender;
 
-
+-(IBAction) displayContactSupport:(id)sender;
 
 @end
 

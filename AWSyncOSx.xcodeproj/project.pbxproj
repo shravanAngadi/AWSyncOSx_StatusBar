@@ -13,6 +13,9 @@
 		B146E3541BCD5569004290A9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B146E3521BCD5569004290A9 /* MainMenu.xib */; };
 		B146E3601BCD5569004290A9 /* AWSyncOSxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B146E35F1BCD5569004290A9 /* AWSyncOSxTests.m */; };
 		B1C7AE481BCE2E4400F557C3 /* AWLocker-Sync-1.png in Resources */ = {isa = PBXBuildFile; fileRef = B1C7AE471BCE2E4400F557C3 /* AWLocker-Sync-1.png */; };
+		B1D1913B1BCE3A7F0097C3A5 /* AWContactSupportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D191391BCE3A7F0097C3A5 /* AWContactSupportViewController.m */; };
+		B1D1913E1BCE3B260097C3A5 /* AWContactSupportViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1D1913D1BCE3B260097C3A5 /* AWContactSupportViewController.xib */; };
+		B1D191411BCE55810097C3A5 /* iconShield.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D191401BCE55810097C3A5 /* iconShield.png */; };
 		B1DA8C161BCD72A400B2AEA6 /* AirWatchSclSync.png in Resources */ = {isa = PBXBuildFile; fileRef = B1DA8C151BCD72A400B2AEA6 /* AirWatchSclSync.png */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +41,10 @@
 		B146E35E1BCD5569004290A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B146E35F1BCD5569004290A9 /* AWSyncOSxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWSyncOSxTests.m; sourceTree = "<group>"; };
 		B1C7AE471BCE2E4400F557C3 /* AWLocker-Sync-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AWLocker-Sync-1.png"; sourceTree = "<group>"; };
+		B1D191381BCE3A7F0097C3A5 /* AWContactSupportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWContactSupportViewController.h; path = ../AWContactSupportViewController.h; sourceTree = "<group>"; };
+		B1D191391BCE3A7F0097C3A5 /* AWContactSupportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWContactSupportViewController.m; path = ../AWContactSupportViewController.m; sourceTree = "<group>"; };
+		B1D1913D1BCE3B260097C3A5 /* AWContactSupportViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AWContactSupportViewController.xib; path = ../AWContactSupportViewController.xib; sourceTree = "<group>"; };
+		B1D191401BCE55810097C3A5 /* iconShield.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconShield.png; sourceTree = "<group>"; };
 		B1DA8C151BCD72A400B2AEA6 /* AirWatchSclSync.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AirWatchSclSync.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,6 +69,8 @@
 		B146E33D1BCD5569004290A9 = {
 			isa = PBXGroup;
 			children = (
+				B1C7AE4A1BCE39ED00F557C3 /* Controller */,
+				B1C7AE491BCE321C00F557C3 /* AWSocket */,
 				B1DA8C171BCD72AC00B2AEA6 /* Resources */,
 				B146E3481BCD5569004290A9 /* AWSyncOSx */,
 				B146E35C1BCD5569004290A9 /* AWSyncOSxTests */,
@@ -81,6 +90,7 @@
 		B146E3481BCD5569004290A9 /* AWSyncOSx */ = {
 			isa = PBXGroup;
 			children = (
+				B1D1913F1BCE3B370097C3A5 /* StatusBarItems */,
 				B146E34B1BCD5569004290A9 /* AppDelegate.h */,
 				B146E34C1BCD5569004290A9 /* AppDelegate.m */,
 				B146E3501BCD5569004290A9 /* Images.xcassets */,
@@ -116,9 +126,34 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B1C7AE491BCE321C00F557C3 /* AWSocket */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = AWSocket;
+			sourceTree = "<group>";
+		};
+		B1C7AE4A1BCE39ED00F557C3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B1D1913F1BCE3B370097C3A5 /* StatusBarItems */ = {
+			isa = PBXGroup;
+			children = (
+				B1D191381BCE3A7F0097C3A5 /* AWContactSupportViewController.h */,
+				B1D191391BCE3A7F0097C3A5 /* AWContactSupportViewController.m */,
+				B1D1913D1BCE3B260097C3A5 /* AWContactSupportViewController.xib */,
+			);
+			name = StatusBarItems;
+			sourceTree = "<group>";
+		};
 		B1DA8C171BCD72AC00B2AEA6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B1D191401BCE55810097C3A5 /* iconShield.png */,
 				B1DA8C151BCD72A400B2AEA6 /* AirWatchSclSync.png */,
 				B1C7AE471BCE2E4400F557C3 /* AWLocker-Sync-1.png */,
 			);
@@ -208,8 +243,10 @@
 			files = (
 				B1C7AE481BCE2E4400F557C3 /* AWLocker-Sync-1.png in Resources */,
 				B146E3511BCD5569004290A9 /* Images.xcassets in Resources */,
+				B1D191411BCE55810097C3A5 /* iconShield.png in Resources */,
 				B1DA8C161BCD72A400B2AEA6 /* AirWatchSclSync.png in Resources */,
 				B146E3541BCD5569004290A9 /* MainMenu.xib in Resources */,
+				B1D1913E1BCE3B260097C3A5 /* AWContactSupportViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +266,7 @@
 			files = (
 				B146E34F1BCD5569004290A9 /* main.m in Sources */,
 				B146E34D1BCD5569004290A9 /* AppDelegate.m in Sources */,
+				B1D1913B1BCE3A7F0097C3A5 /* AWContactSupportViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
