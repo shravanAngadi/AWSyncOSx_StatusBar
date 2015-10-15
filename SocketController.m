@@ -19,7 +19,6 @@
 #include <errno.h>
 #include <arpa/inet.h>
 
-
 @interface SocketController ()
 
 @end
@@ -52,8 +51,17 @@ static int count;
         clientSocket = [self getClientSocket];
     }
     
+    NSLog(message);
+    
+    
+    
+    for (int i=0; i < message.length; i++) {
+        
+    }
+    
+    
     //send something to Xamarin
-    send(clientSocket, (__bridge void *)message , 1024, 0);//SYN
+    send(clientSocket, (__bridge void*)message , 1024, 0);//SYN.. (__bridge void *)message
     
     
     /*---- Read the message from the server into the buffer ----*/
